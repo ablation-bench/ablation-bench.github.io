@@ -2,16 +2,17 @@
 
 <img src="_media/icon.png" alt="logo" width="200"/>
 
-# AblationBench
+# **AblationBench**
 
-> A magical documentation site generator
+> Evaluating Automated Planning of Ablations in Empirical AI Research
 
-- Simple and lightweight
-- No statically built HTML files
+- A benchmark suite for automated ablation planning: AuthorAblation and ReviewerAblation
+- Current models acheive 
 - Multiple themes
 
-[Get Started](#docsify)
-[GitHub](https://github.com/docsifyjs/docsify/)
+[Learn More](#docsify)
+[Paper](https://www.arxiv.org/abs/2507.08038)
+[GitHub](https://github.com/ai-scientist-bench/ablation-bench)
 
 <!-- ![color](#f0f0f0) -->
 <!-- ![](/_media/icon.png) -->
