@@ -6,6 +6,8 @@
 
 > Evaluating Automated Planning of Ablations in Empirical AI Research
 
+<ins>[Talor Abramovich](https://talorabr.github.io)</ins>        <ins>[Gal Chechik](https://chechiklab.biu.ac.il/~gal/)</ins>
+
 - A benchmark suite for automated ablation planning: AuthorAblation and ReviewerAblation
 - Current LM system identifies only **29%** of the original ablations on average
 - Submit your own results to our [Leaderboard](leaderboard)!
