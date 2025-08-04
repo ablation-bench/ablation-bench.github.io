@@ -8,7 +8,7 @@
 
 - A benchmark suite for automated ablation planning: AuthorAblation and ReviewerAblation
 - Current LM system identifies only **29%** of the original ablations on average
-- Submit your own results to our Leaderboard!
+- Submit your own results to our [Leaderboard](leaderboard)!
 
 [Learn More](#docsify)
 [Paper](https://www.arxiv.org/abs/2507.08038)
