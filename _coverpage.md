@@ -7,8 +7,8 @@
 > Evaluating Automated Planning of Ablations in Empirical AI Research
 
 - A benchmark suite for automated ablation planning: AuthorAblation and ReviewerAblation
-- Current models acheive 
-- Multiple themes
+- Current LM system identifies only **29%** of the original ablations on average
+- Submit your own results to our Leaderboard!
 
 [Learn More](#docsify)
 [Paper](https://www.arxiv.org/abs/2507.08038)
