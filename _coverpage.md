@@ -1,6 +1,6 @@
 <!-- markdownlint-disable first-line-h1 -->
 
-<img src="_media/icon.png" alt="logo" width="50"/>
+<img src="_media/icon.png" alt="logo" width="200"/>
 
 # AblationBench
 
