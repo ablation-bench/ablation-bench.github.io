@@ -10,11 +10,13 @@
 
 - A benchmark suite for automated ablation planning
 - Current LM system identifies only **29%** of the original ablations on average
-- Submit your own results to our [Leaderboard](leaderboard)!
+- Submit your own results to our <ins>[Leaderboard](#leaderboard)</ins>!
 
+
+[Paper 📎](https://www.arxiv.org/abs/2507.08038)
+[HuggingFace 🤗](https://huggingface.co/collections/ai-coscientist/ablationbench-682701a2c1eafb87b1b087ea)
+[GitHub 💻](https://github.com/ai-scientist-bench/ablation-bench)
 [Learn More](#ablationbench)
-[Paper](https://www.arxiv.org/abs/2507.08038)
-[GitHub](https://github.com/ai-scientist-bench/ablation-bench)
 
 <!-- ![color](#f0f0f0) -->
 <!-- ![](/_media/icon.png) -->
