@@ -10,7 +10,7 @@
 - Current LM system identifies only **29%** of the original ablations on average
 - Submit your own results to our [Leaderboard](leaderboard)!
 
-[Learn More](#docsify)
+[Learn More](#ablationbench)
 [Paper](https://www.arxiv.org/abs/2507.08038)
 [GitHub](https://github.com/ai-scientist-bench/ablation-bench)
 
