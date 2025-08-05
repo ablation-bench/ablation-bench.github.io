@@ -7,23 +7,52 @@
 
 ## Leaderboard
 
+The leaderboard shows all model results, with detailed scores per dataset in the AuthorAblation and ReviewerAblation tabs.
+
 <!-- tabs:start -->
 
 #### **AblationBench**
 
-Hello!
+| Model                             | F1 Score |
+|----------------------------------|----------|
+| LM-Planner w/ GPT-4o             | 0.22     |
+| LM-Planner w/ Claude 3.5 Sonnet  | 0.21     |
+| LM-Planner w/ Llama 3.1 405B     | 0.19     |
+| LM-Planner w/ o3-mini            | 0.22     |
+| LM-Planner w/ Gemini 2.5 Flash   | **0.24**     |
+| Agent-Planner w/ GPT-4o          | 0.18     |
+| Agent-Planner w/ Claude 3.5 Sonnet | 0.19   |
+| Agent-Planner w/ Llama 3.1 405B  | 0.17     |
 
 #### **AuthorAblation Only**
 
-Bonjour!
+| Model                             | F1 Score |
+|----------------------------------|----------|
+| LM-Planner w/ GPT-4o             | 0.22     |
+| LM-Planner w/ Claude 3.5 Sonnet  | 0.23     |
+| LM-Planner w/ Llama 3.1 405B     | 0.17     |
+| LM-Planner w/ o3-mini            | **0.26**     |
+| LM-Planner w/ Gemini 2.5 Flash   | **0.26**     |
+| Agent-Planner w/ GPT-4o          | 0.17     |
+| Agent-Planner w/ Claude 3.5 Sonnet | 0.17   |
+| Agent-Planner w/ Llama 3.1 405B  | 0.14     |
+
 
 #### **ReviewerAblation Only**
 
-Ciao!
+| Model                             | F1 Score |
+|----------------------------------|----------|
+| LM-Planner w/ GPT-4o             | 0.22     |
+| LM-Planner w/ Claude 3.5 Sonnet  | 0.18     |
+| LM-Planner w/ Llama 3.1 405B     | 0.20     |
+| LM-Planner w/ o3-mini            | 0.18     |
+| LM-Planner w/ Gemini 2.5 Flash   | **0.22**     |
+| Agent-Planner w/ GPT-4o          | 0.19     |
+| Agent-Planner w/ Claude 3.5 Sonnet | 0.21   |
+| Agent-Planner w/ Llama 3.1 405B  | 0.19     |
+
 
 <!-- tabs:end -->
-
-
 
 
 ## Task Instances
@@ -41,3 +70,16 @@ Bonjour!
 <!-- tabs:end -->
 
 
+## Citation
+
+```bibtex
+@misc{abramovich2025ablationbenchevaluatingautomatedplanning,
+      title={AblationBench: Evaluating Automated Planning of Ablations in Empirical AI Research}, 
+      author={Talor Abramovich and Gal Chechik},
+      year={2025},
+      eprint={2507.08038},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.08038}, 
+}
+```
