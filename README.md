@@ -149,7 +149,9 @@ For this task, we collect 350 submissions and reviews from [ICLR](https://iclr.c
 
 <details>
 <summary>An example for review containing a suggestion for missing ablation experiment</summary>
+
 > ... I would expect more ablation studies of the choices in the proposed methods: for example, how does the number of iterations affect the results? ...
+
 </details>
 
 
