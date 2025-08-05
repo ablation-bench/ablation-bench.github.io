@@ -28,6 +28,13 @@
 
 <center><img src="_media/figure1.png" alt="fig1"/></center>
 
+This is the project page of AblationBench, it contains the leaderboards as well as brief explanation about our benchmark and evaluation paradigm.
+It also contains all the trajectories for the model used in our evaluation.
+
+For more information please refer to our [paper](https://www.arxiv.org/abs/2507.08038).
+
+We are also completely open-source! Our dataset can be found on [HuggingFace](https://huggingface.co/collections/ai-coscientist/ablationbench-682701a2c1eafb87b1b087ea) and our evaluation suite can be found on [GitHub](https://github.com/ai-scientist-bench/ablation-bench) ![GitHub Stars](https://img.shields.io/github/stars/ai-scientist-bench/ablation-bench).
+
 ## Leaderboard
 
 The leaderboard shows all model results, with detailed scores per dataset in the <span class="authorablation">AuthorAblation</span> and <span class="reviewerablation">ReviewerAblation</span> tabs.
@@ -88,9 +95,9 @@ We look into two tasks in automating ablations:
 
 #### **<span class="authorablation">AuthorAblation</span>**
 
-In AuthorAblation the task is generating an ablation plan given a paper's title, abstract, and truncated content up to the method section.
+In <span class="authorablation">AuthorAblation</span> the task is generating an ablation plan given a paper's title, abstract, and truncated content up to the method section.
 
-The output is a structured JSONL file containing up to $k$ ablation entries. Each entry should describe the removal or modification of a specific component of the proposed method, aiming to assess its individual contribution.
+The output is a structured JSONL file containing up to k ablation entries. Each entry should describe the removal or modification of a specific component of the proposed method, aiming to assess its individual contribution.
 
 <details>
 <summary>Example output for MotionEditor paper from AuthorAblation dev split</summary>
@@ -132,9 +139,19 @@ The output is a structured JSONL file containing up to $k$ ablation entries. Eac
 ```
 </details>
 
+For this task, we collect 83 papers, that span across 14 conferences and include 230 human-annotated ablation experiments from the original papers.
+
 #### **<span class="reviewerablation">ReviewerAblation</span>**
 
-Bonjour!
+In <span class="reviewerablation">ReviewerAblation</span> the task is given a paper’s title, abstract, and full preprint, to generate k missing ablations—experiments that were not reported in the paper but should have been included.
+
+For this task, we collect 350 submissions and reviews from [ICLR](https://iclr.cc) (2023-2025), where the [reviews](https://openreview.net) contain suggestion for missing ablation experiments.
+
+<display>
+<summary>An example for review containing a suggestion for missing ablation experiment</summary>
+> ... I would expect more ablation studies of the choices in the proposed methods: for example, how does the number of iterations affect the results? ...
+</display>
+
 
 <!-- tabs:end -->
 
