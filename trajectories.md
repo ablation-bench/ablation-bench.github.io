@@ -3,7 +3,9 @@
 ## AuthorAblation
 
 
-### LM-Planner
+<!-- tabs:start -->
+
+#### **LM-Planner**
 
 | Task | GPT-4o | Claude 3.5 Sonnet | Llama 3.1 405B Instruct | Gemini 2.5 Flash | o3-mini |
 |------|----|----|----|----|----|
@@ -70,25 +72,74 @@
 | componet | [✅](/trajectories/lm-planner/gpt-4o/componet) | [✅](/trajectories/lm-planner/claude-35-sonnet/componet) | [✅](/trajectories/lm-planner/llama-31-405b-instruct/componet) | [✅](/trajectories/lm-planner/gemini-25-flash/componet) | [✅](/trajectories/lm-planner/o3-mini/componet) |
 | foa | [✅](/trajectories/lm-planner/gpt-4o/foa) | [✅](/trajectories/lm-planner/claude-35-sonnet/foa) | [✅](/trajectories/lm-planner/llama-31-405b-instruct/foa) | [✅](/trajectories/lm-planner/gemini-25-flash/foa) | [✅](/trajectories/lm-planner/o3-mini/foa) |
 
-### SWE-agent
+#### **Agent-Planner**
 
-#### GPT-4o
-<details>
-<summary>Click here to expand</summary>
+| Task | GPT-4o | Claude 3.5 Sonnet | Llama 3.1 405B Instruct |
+|------|----|----|----|
+| spider-match | [✅](/trajectories/agent-planner/gpt-4o/spider-match) | [✅](/trajectories/agent-planner/claude-35-sonnet/spider-match) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/spider-match) |
+| ipg | [✅](/trajectories/agent-planner/gpt-4o/ipg) | [✅](/trajectories/agent-planner/claude-35-sonnet/ipg) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/ipg) |
+| 3d-registration-with-maximal-cliques | [✅](/trajectories/agent-planner/gpt-4o/3d-registration-with-maximal-cliques) | [✅](/trajectories/agent-planner/claude-35-sonnet/3d-registration-with-maximal-cliques) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/3d-registration-with-maximal-cliques) |
+| dit | [✅](/trajectories/agent-planner/gpt-4o/dit) | [✅](/trajectories/agent-planner/claude-35-sonnet/dit) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/dit) |
+| epro-pnp | [✅](/trajectories/agent-planner/gpt-4o/epro-pnp) | [✅](/trajectories/agent-planner/claude-35-sonnet/epro-pnp) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/epro-pnp) |
+| t2t-vit | [✅](/trajectories/agent-planner/gpt-4o/t2t-vit) | [✅](/trajectories/agent-planner/claude-35-sonnet/t2t-vit) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/t2t-vit) |
+| swin-transformer | [✅](/trajectories/agent-planner/gpt-4o/swin-transformer) | [✅](/trajectories/agent-planner/claude-35-sonnet/swin-transformer) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/swin-transformer) |
+| hdnet_tiktok | [✅](/trajectories/agent-planner/gpt-4o/hdnet_tiktok) | [✅](/trajectories/agent-planner/claude-35-sonnet/hdnet_tiktok) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/hdnet_tiktok) |
+| simsiam | [✅](/trajectories/agent-planner/gpt-4o/simsiam) | [✅](/trajectories/agent-planner/claude-35-sonnet/simsiam) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/simsiam) |
+| backgroundmattingv2 | [✅](/trajectories/agent-planner/gpt-4o/backgroundmattingv2) | [✅](/trajectories/agent-planner/claude-35-sonnet/backgroundmattingv2) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/backgroundmattingv2) |
+| clipbert | [✅](/trajectories/agent-planner/gpt-4o/clipbert) | [✅](/trajectories/agent-planner/claude-35-sonnet/clipbert) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/clipbert) |
+| unsup3d | [✅](/trajectories/agent-planner/gpt-4o/unsup3d) | [✅](/trajectories/agent-planner/claude-35-sonnet/unsup3d) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/unsup3d) |
+| raydf | [✅](/trajectories/agent-planner/gpt-4o/raydf) | [✅](/trajectories/agent-planner/claude-35-sonnet/raydf) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/raydf) |
+| ssdnerf | [✅](/trajectories/agent-planner/gpt-4o/ssdnerf) | [✅](/trajectories/agent-planner/claude-35-sonnet/ssdnerf) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/ssdnerf) |
+| neuralpull | [✅](/trajectories/agent-planner/gpt-4o/neuralpull) | [✅](/trajectories/agent-planner/claude-35-sonnet/neuralpull) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/neuralpull) |
+| dad-3dheads | [✅](/trajectories/agent-planner/gpt-4o/dad-3dheads) | [✅](/trajectories/agent-planner/claude-35-sonnet/dad-3dheads) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/dad-3dheads) |
+| seg-uncertainty | [✅](/trajectories/agent-planner/gpt-4o/seg-uncertainty) | [✅](/trajectories/agent-planner/claude-35-sonnet/seg-uncertainty) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/seg-uncertainty) |
+| rgbd_semantic_segmentation_pytorch_sa_gate | [✅](/trajectories/agent-planner/gpt-4o/rgbd_semantic_segmentation_pytorch_sa_gate) | [✅](/trajectories/agent-planner/claude-35-sonnet/rgbd_semantic_segmentation_pytorch_sa_gate) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/rgbd_semantic_segmentation_pytorch_sa_gate) |
+| rgbd_semantic_segmentation_pytorch_mellable | [✅](/trajectories/agent-planner/gpt-4o/rgbd_semantic_segmentation_pytorch_mellable) | [✅](/trajectories/agent-planner/claude-35-sonnet/rgbd_semantic_segmentation_pytorch_mellable) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/rgbd_semantic_segmentation_pytorch_mellable) |
+| bcnet | [✅](/trajectories/agent-planner/gpt-4o/bcnet) | [✅](/trajectories/agent-planner/claude-35-sonnet/bcnet) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/bcnet) |
+| multiview2novelview | [✅](/trajectories/agent-planner/gpt-4o/multiview2novelview) | [✅](/trajectories/agent-planner/claude-35-sonnet/multiview2novelview) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/multiview2novelview) |
+| smoothnet | [✅](/trajectories/agent-planner/gpt-4o/smoothnet) | [✅](/trajectories/agent-planner/claude-35-sonnet/smoothnet) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/smoothnet) |
+| fsa-net | [✅](/trajectories/agent-planner/gpt-4o/fsa-net) | [✅](/trajectories/agent-planner/claude-35-sonnet/fsa-net) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/fsa-net) |
+| visualdet3d | [✅](/trajectories/agent-planner/gpt-4o/visualdet3d) | [✅](/trajectories/agent-planner/claude-35-sonnet/visualdet3d) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/visualdet3d) |
+| deviant | [✅](/trajectories/agent-planner/gpt-4o/deviant) | [✅](/trajectories/agent-planner/claude-35-sonnet/deviant) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/deviant) |
+| owod | [✅](/trajectories/agent-planner/gpt-4o/owod) | [✅](/trajectories/agent-planner/claude-35-sonnet/owod) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/owod) |
+| ddm2 | [✅](/trajectories/agent-planner/gpt-4o/ddm2) | [✅](/trajectories/agent-planner/claude-35-sonnet/ddm2) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/ddm2) |
+| ddnm | [✅](/trajectories/agent-planner/gpt-4o/ddnm) | [✅](/trajectories/agent-planner/claude-35-sonnet/ddnm) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/ddnm) |
+| graphtransformer | [✅](/trajectories/agent-planner/gpt-4o/graphtransformer) | [✅](/trajectories/agent-planner/claude-35-sonnet/graphtransformer) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/graphtransformer) |
+| gpt-gnn | [✅](/trajectories/agent-planner/gpt-4o/gpt-gnn) | [✅](/trajectories/agent-planner/claude-35-sonnet/gpt-gnn) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/gpt-gnn) |
+| graphmae | [✅](/trajectories/agent-planner/gpt-4o/graphmae) | [✅](/trajectories/agent-planner/claude-35-sonnet/graphmae) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/graphmae) |
+| curl-image-enhancement | [✅](/trajectories/agent-planner/gpt-4o/curl-image-enhancement) | [✅](/trajectories/agent-planner/claude-35-sonnet/curl-image-enhancement) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/curl-image-enhancement) |
+| rrl | [✅](/trajectories/agent-planner/gpt-4o/rrl) | [✅](/trajectories/agent-planner/claude-35-sonnet/rrl) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/rrl) |
+| dart | [✅](/trajectories/agent-planner/gpt-4o/dart) | [✅](/trajectories/agent-planner/claude-35-sonnet/dart) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/dart) |
+| hvpnet | [✅](/trajectories/agent-planner/gpt-4o/hvpnet) | [✅](/trajectories/agent-planner/claude-35-sonnet/hvpnet) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/hvpnet) |
+| simcse | [✅](/trajectories/agent-planner/gpt-4o/simcse) | [✅](/trajectories/agent-planner/claude-35-sonnet/simcse) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/simcse) |
+| storm | [✅](/trajectories/agent-planner/gpt-4o/storm) | [✅](/trajectories/agent-planner/claude-35-sonnet/storm) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/storm) |
+| imbalanced-regression | [✅](/trajectories/agent-planner/gpt-4o/imbalanced-regression) | [✅](/trajectories/agent-planner/claude-35-sonnet/imbalanced-regression) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/imbalanced-regression) |
+| gangealing | [✅](/trajectories/agent-planner/gpt-4o/gangealing) | [✅](/trajectories/agent-planner/claude-35-sonnet/gangealing) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/gangealing) |
+| amrbart | [✅](/trajectories/agent-planner/gpt-4o/amrbart) | [✅](/trajectories/agent-planner/claude-35-sonnet/amrbart) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/amrbart) |
+| pie | [✅](/trajectories/agent-planner/gpt-4o/pie) | [✅](/trajectories/agent-planner/claude-35-sonnet/pie) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/pie) |
+| discodisco | [✅](/trajectories/agent-planner/gpt-4o/discodisco) | [✅](/trajectories/agent-planner/claude-35-sonnet/discodisco) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/discodisco) |
+| curriculum_learning | [✅](/trajectories/agent-planner/gpt-4o/curriculum_learning) | [✅](/trajectories/agent-planner/claude-35-sonnet/curriculum_learning) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/curriculum_learning) |
+| mezo | [✅](/trajectories/agent-planner/gpt-4o/mezo) | [✅](/trajectories/agent-planner/claude-35-sonnet/mezo) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/mezo) |
+| rah-kbqa | [✅](/trajectories/agent-planner/gpt-4o/rah-kbqa) | [✅](/trajectories/agent-planner/claude-35-sonnet/rah-kbqa) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/rah-kbqa) |
+| blockskim | [✅](/trajectories/agent-planner/gpt-4o/blockskim) | [✅](/trajectories/agent-planner/claude-35-sonnet/blockskim) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/blockskim) |
+| powerfulpromptft | [✅](/trajectories/agent-planner/gpt-4o/powerfulpromptft) | [✅](/trajectories/agent-planner/claude-35-sonnet/powerfulpromptft) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/powerfulpromptft) |
+| memorizing-transformers-pytorch | [✅](/trajectories/agent-planner/gpt-4o/memorizing-transformers-pytorch) | [✅](/trajectories/agent-planner/claude-35-sonnet/memorizing-transformers-pytorch) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/memorizing-transformers-pytorch) |
+| galore | [✅](/trajectories/agent-planner/gpt-4o/galore) | [✅](/trajectories/agent-planner/claude-35-sonnet/galore) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/galore) |
+| mixup-amp | [✅](/trajectories/agent-planner/gpt-4o/mixup-amp) | [✅](/trajectories/agent-planner/claude-35-sonnet/mixup-amp) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/mixup-amp) |
+| upet | [✅](/trajectories/agent-planner/gpt-4o/upet) | [✅](/trajectories/agent-planner/claude-35-sonnet/upet) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/upet) |
+| cet | [✅](/trajectories/agent-planner/gpt-4o/cet) | [✅](/trajectories/agent-planner/claude-35-sonnet/cet) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/cet) |
+| apt | [✅](/trajectories/agent-planner/gpt-4o/apt) | [✅](/trajectories/agent-planner/claude-35-sonnet/apt) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/apt) |
+| bbox-adapter | [✅](/trajectories/agent-planner/gpt-4o/bbox-adapter) | [✅](/trajectories/agent-planner/claude-35-sonnet/bbox-adapter) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/bbox-adapter) |
+| dpms-ant | [✅](/trajectories/agent-planner/gpt-4o/dpms-ant) | [✅](/trajectories/agent-planner/claude-35-sonnet/dpms-ant) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/dpms-ant) |
+| lbcs | [✅](/trajectories/agent-planner/gpt-4o/lbcs) | [✅](/trajectories/agent-planner/claude-35-sonnet/lbcs) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/lbcs) |
+| lca-on-the-line | [✅](/trajectories/agent-planner/gpt-4o/lca-on-the-line) | [✅](/trajectories/agent-planner/claude-35-sonnet/lca-on-the-line) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/lca-on-the-line) |
+| robustvlm | [✅](/trajectories/agent-planner/gpt-4o/robustvlm) | [✅](/trajectories/agent-planner/claude-35-sonnet/robustvlm) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/robustvlm) |
+| smm | [✅](/trajectories/agent-planner/gpt-4o/smm) | [✅](/trajectories/agent-planner/claude-35-sonnet/smm) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/smm) |
+| sapg | [✅](/trajectories/agent-planner/gpt-4o/sapg) | [✅](/trajectories/agent-planner/claude-35-sonnet/sapg) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/sapg) |
+| componet | [✅](/trajectories/agent-planner/gpt-4o/componet) | [✅](/trajectories/agent-planner/claude-35-sonnet/componet) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/componet) |
+| foa | [✅](/trajectories/agent-planner/gpt-4o/foa) | [✅](/trajectories/agent-planner/claude-35-sonnet/foa) | [✅](/trajectories/agent-planner/llama-31-405b-instruct/foa) |
 
-</details>
-
-#### Claude 3.5 Sonnet
-<details>
-<summary>Click here to expand</summary>
-
-</details>
-
-#### Llama 3.1 405B Instruct
-<details>
-<summary>Click here to expand</summary>
-
-</details>
+<!-- tabs:end -->
 
 ## ReviewerAblation
 
