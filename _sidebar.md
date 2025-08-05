@@ -1,4 +1,2 @@
 - [AblationBench](README)
 - [Trajectories](trajectories)
-    - AuthorAblation
-    - ReviewerAblation
