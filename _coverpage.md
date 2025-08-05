@@ -13,10 +13,11 @@
 - Submit your own results to our <ins>[Leaderboard](#leaderboard)</ins>!
 
 
+[Learn More](#ablationbench)
 [Paper 📎](https://www.arxiv.org/abs/2507.08038)
 [HuggingFace 🤗](https://huggingface.co/collections/ai-coscientist/ablationbench-682701a2c1eafb87b1b087ea)
 [GitHub 💻](https://github.com/ai-scientist-bench/ablation-bench)
-[Learn More](#ablationbench)
+
 
 <!-- ![color](#b1ffbb) -->
 <!-- ![](/_media/icon.png) -->

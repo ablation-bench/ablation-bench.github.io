@@ -1,4 +1,5 @@
 
 :root {
     --cover-background-color: linear-gradient(to left bottom, hsl(40, 100%, 85%) 0%,rgb(179, 255, 187) 100%);
+    --cover-max-width: 60em;
 }
