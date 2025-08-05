@@ -1,5 +1,5 @@
 <!-- markdownlint-disable first-line-h1 -->
-
+<div style="background: linear-gradient(to left bottom, hsl(40, 100%, 85%) 0%,hsl(127, 100%, 85%) 100%)">
 <img src="_media/icon.png" alt="logo" width="200"/>
 
 # **AblationBench**
@@ -17,6 +17,7 @@
 [HuggingFace 🤗](https://huggingface.co/collections/ai-coscientist/ablationbench-682701a2c1eafb87b1b087ea)
 [GitHub 💻](https://github.com/ai-scientist-bench/ablation-bench)
 [Learn More](#ablationbench)
+</div>
 
 <!-- ![color](background: linear-gradient(to left bottom, hsl(40, 100%, 85%) 0%,hsl(127, 100%, 85%) 100%)) -->
 <!-- ![](/_media/icon.png) -->
