@@ -80,17 +80,72 @@ The leaderboard shows all model results, with detailed scores per dataset in the
 
 ## Task Instances
 
+We look into two tasks in automating ablations: 
+1. Assisting ***authors***: proposing ablation experiments given a written method section.
+2. Assisting ***reviewers***: proposing missing ablation experiments of a given paper.
+
 <!-- tabs:start -->
 
 #### **<span class="authorablation">AuthorAblation</span>**
 
-Hello!
+In AuthorAblation the task is generating an ablation plan given a paper's title, abstract, and truncated content up to the method section.
+
+The output is a structured JSONL file containing up to $k$ ablation entries. Each entry should describe the removal or modification of a specific component of the proposed method, aiming to assess its individual contribution.
+
+<details>
+<summary>Example output for MotionEditor paper from AuthorAblation dev split</summary>
+
+```json
+[
+    {
+        "name": "CS Attention Ablation",
+        "ablated_part": "CS Attention",
+        "action": "REPLACE",
+        "replacement": ["Sparse Attention"],
+        "metrics": ["visual quality"]
+    },
+    {
+        "name": "Cross Attention in Motion Adapter Ablation",
+        "ablated_part": "Cross attention in motion adapter",
+        "action": "REMOVE",
+        "metrics": ["visual quality"]
+    },
+    {
+        "name": "Motion Adapter Ablation",
+        "ablated_part": "Motion adapter",
+        "action": "REMOVE",
+        "metrics": ["visual quality"]
+    },
+    {
+        "name": "High-Fidelity Attention Injection Ablation",
+        "ablated_part": "High-fidelity attention injection",
+        "action": "REMOVE",
+        "metrics": ["visual quality"]
+    },
+    {
+        "name": "Skeleton Alignment Ablation",
+        "ablated_part": "Skeleton alignment",
+        "action": "REMOVE",
+        "metrics": ["visual quality"]
+    }
+]
+```
+</details>
 
 #### **<span class="reviewerablation">ReviewerAblation</span>**
 
 Bonjour!
 
 <!-- tabs:end -->
+
+
+## Evaluating AblationBench
+
+To support automatic evaluation, we design an LM-based judge that compares the GT ablations to the generated ones and decides whether each one has a match.
+
+To evaluate how well the judges perform, we also provide a dedicated dataset, *JudgeEval*, consisting of *AuthorEval* and *ReviewerEval*, with manually labeled examples for both tasks.
+
+Our best judge achieves 0.75 F1 score on the JudgeEval dataset using Claude 3.5 Sonnet: on the AuthorEval we achieve 0.79 F1 score and on the ReviewerEval we acheive 0.70 F1 score.
 
 
 ## Citation
