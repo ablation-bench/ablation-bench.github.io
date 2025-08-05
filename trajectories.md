@@ -1,9 +1,10 @@
 # AblationBench Trajectories
 
 <details>
+<summary>
 
-## <summary>AuthorAblation</summary>
-
+## AuthorAblation
+</summary>
 
 </details>
 
@@ -11,6 +12,9 @@
 
 <details>
 
-## <summary>ReviewerAblation</summary>
+<summary>
+
+## ReviewerAblation
+</summary>
 
 </details>
