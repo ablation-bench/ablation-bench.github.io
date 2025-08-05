@@ -18,5 +18,5 @@
 [GitHub 💻](https://github.com/ai-scientist-bench/ablation-bench)
 [Learn More](#ablationbench)
 
-![color](#b1ffbb)
+<!-- ![color](#b1ffbb) -->
 <!-- ![](/_media/icon.png) -->
