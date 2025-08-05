@@ -8,14 +8,14 @@
 }
 
 .authorablation {
-  background: linear-gradient(to right, #7700B7,rgb(196, 124, 235));
+  background: linear-gradient(to right, rgb(196, 124, 235),rgb(196, 124, 235));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-style: italic;
 }
 
 .reviewerablation {
-  background: linear-gradient(to right, #60BF00,rgb(33, 66, 0));
+  background: linear-gradient(to right, #60BF00, #60BF00);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-style: italic;
@@ -34,7 +34,7 @@ The leaderboard shows all model results, with detailed scores per dataset in the
 
 <!-- tabs:start -->
 
-#### <span class="ablationbench">AblationBench</span>
+#### **<span class="ablationbench">AblationBench</span>**
 
 | Model                             | F1 Score |
 |----------------------------------|----------|
