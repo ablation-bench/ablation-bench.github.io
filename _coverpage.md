@@ -18,5 +18,5 @@
 [GitHub 💻](https://github.com/ai-scientist-bench/ablation-bench)
 [Learn More](#ablationbench)
 
-<!-- ![color](#f0f0f0) -->
+![color](linear-gradient(to left bottom, hsl(40, 100%, 85%) 0%,hsl(127, 100%, 85%) 100%))
 <!-- ![](/_media/icon.png) -->
