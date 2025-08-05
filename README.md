@@ -164,6 +164,10 @@ To evaluate how well the judges perform, we also provide a dedicated dataset, *J
 
 Our best judge achieves 0.75 F1 score on the JudgeEval dataset using Claude 3.5 Sonnet: on the AuthorEval we achieve 0.79 F1 score and on the ReviewerEval we acheive 0.70 F1 score.
 
+The image below shows three examples of how our matching criteria works:
+
+![match-labels](_media/match-labels.png)
+
 
 ## Citation
 
