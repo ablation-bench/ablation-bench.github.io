@@ -13,9 +13,10 @@
 - Submit your own results to our [Leaderboard](#leaderboard)!
 
 <div class="scroll-arrow-wrapper">
-    <a href="#/?id=ablationbench">
-  <div class="scroll-arrow"></div>
-  </a>
+    
+  <div class="scroll-arrow">
+  <a href="#/?id=ablationbench">
+  </div>
 </div>
 
 <style>
