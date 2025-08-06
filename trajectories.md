@@ -80,7 +80,11 @@
 | componet | [🔗](/trajectories/lm-planner/gpt-4o/componet) | [🔗](/trajectories/lm-planner/claude-35-sonnet/componet) | [🔗](/trajectories/lm-planner/llama-31-405b-instruct/componet) | [🔗](/trajectories/lm-planner/gemini-25-flash/componet) | [🔗](/trajectories/lm-planner/o3-mini/componet) |
 | foa | [🔗](/trajectories/lm-planner/gpt-4o/foa) | [🔗](/trajectories/lm-planner/claude-35-sonnet/foa) | [🔗](/trajectories/lm-planner/llama-31-405b-instruct/foa) | [🔗](/trajectories/lm-planner/gemini-25-flash/foa) | [🔗](/trajectories/lm-planner/o3-mini/foa) |
 
+</div>
+
 #### **Agent-Planner**
+
+<div class="no-links-underline">
 
 | Task | GPT-4o | Claude 3.5 Sonnet | Llama 3.1 405B Instruct |
 |------|----|----|----|
@@ -157,6 +161,8 @@
 
 #### **LM-Planner**
 
+
+<div class="no-links-underline">
 
 | Task | GPT-4o | Claude 3.5 Sonnet | Llama 3.1 405B Instruct | Gemini 2.5 Flash | o3-mini |
 |------|----|----|----|----|----|
@@ -461,7 +467,11 @@
 | Learning_S... | [🔗](/trajectories/lm-planner/gpt-4o/Learning_Structured_Universe_Graph_with_Outlier_OOD_Detection_for_Partial_Matching) | [🔗](/trajectories/lm-planner/claude-35-sonnet/Learning_Structured_Universe_Graph_with_Outlier_OOD_Detection_for_Partial_Matching) | [🔗](/trajectories/lm-planner/llama-31-405b-instruct/Learning_Structured_Universe_Graph_with_Outlier_OOD_Detection_for_Partial_Matching) | [🔗](/trajectories/lm-planner/gemini-25-flash/Learning_Structured_Universe_Graph_with_Outlier_OOD_Detection_for_Partial_Matching) | [🔗](/trajectories/lm-planner/o3-mini/Learning_Structured_Universe_Graph_with_Outlier_OOD_Detection_for_Partial_Matching) |
 | ACC_Collab... | [🔗](/trajectories/lm-planner/gpt-4o/ACC_Collab__An_Actor_Critic_Approach_to_Multi_Agent_LLM_Collaboration) | [🔗](/trajectories/lm-planner/claude-35-sonnet/ACC_Collab__An_Actor_Critic_Approach_to_Multi_Agent_LLM_Collaboration) | [🔗](/trajectories/lm-planner/llama-31-405b-instruct/ACC_Collab__An_Actor_Critic_Approach_to_Multi_Agent_LLM_Collaboration) | [🔗](/trajectories/lm-planner/gemini-25-flash/ACC_Collab__An_Actor_Critic_Approach_to_Multi_Agent_LLM_Collaboration) | [🔗](/trajectories/lm-planner/o3-mini/ACC_Collab__An_Actor_Critic_Approach_to_Multi_Agent_LLM_Collaboration) |
 
+</div>
+
 #### **Agent-Planner**
+
+<div class="no-links-underline">
 
 | Task | GPT-4o | Claude 3.5 Sonnet | Llama 3.1 405B Instruct |
 |------|----|----|----|
@@ -765,5 +775,7 @@
 | Enriching_... | [🔗](/trajectories/agent-planner/gpt-4o/Enriching_Knowledge_Distillation_with_Intra_Class_Contrastive_Learning) | [🔗](/trajectories/agent-planner/claude-35-sonnet/Enriching_Knowledge_Distillation_with_Intra_Class_Contrastive_Learning) | [🔗](/trajectories/agent-planner/llama-31-405b-instruct/Enriching_Knowledge_Distillation_with_Intra_Class_Contrastive_Learning) |
 | Learning_S... | [🔗](/trajectories/agent-planner/gpt-4o/Learning_Structured_Universe_Graph_with_Outlier_OOD_Detection_for_Partial_Matching) | [🔗](/trajectories/agent-planner/claude-35-sonnet/Learning_Structured_Universe_Graph_with_Outlier_OOD_Detection_for_Partial_Matching) | [🔗](/trajectories/agent-planner/llama-31-405b-instruct/Learning_Structured_Universe_Graph_with_Outlier_OOD_Detection_for_Partial_Matching) |
 | ACC_Collab... | [🔗](/trajectories/agent-planner/gpt-4o/ACC_Collab__An_Actor_Critic_Approach_to_Multi_Agent_LLM_Collaboration) | [🔗](/trajectories/agent-planner/claude-35-sonnet/ACC_Collab__An_Actor_Critic_Approach_to_Multi_Agent_LLM_Collaboration) | [🔗](/trajectories/agent-planner/llama-31-405b-instruct/ACC_Collab__An_Actor_Critic_Approach_to_Multi_Agent_LLM_Collaboration) |
+
+</div>
 
 <!-- tabs:end -->
