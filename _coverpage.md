@@ -23,7 +23,7 @@
 
 <style>
 .down-arrow {
-  width: 40px;
+  width: 50px;
   height: 40px;
   margin: 30px auto;
   position: relative;
@@ -41,7 +41,8 @@
   border: solid #000;
   border-width: 0 0 4px 4px;
   transform: rotate(315deg); /* Makes it point down like a V */
-  box-sizing: border-box;
+  box-sizing: content-box;  /* Prevents affecting layout */
+  display: block;
 }
 
 @keyframes bounce-down {
