@@ -19,5 +19,42 @@
 [GitHub 💻](https://github.com/ai-scientist-bench/ablation-bench)
 
 
+<div class="down-arrow"></div>
+
+<style>
+.down-arrow {
+  width: 40px;
+  height: 40px;
+  margin: 30px auto;
+  position: relative;
+  animation: bounce-down 1.5s infinite;
+  opacity: 0.7;
+}
+
+.down-arrow::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: solid #000;
+  border-width: 0 0 4px 4px;
+  transform: rotate(315deg); /* Makes it point down like a V */
+  box-sizing: border-box;
+}
+
+@keyframes bounce-down {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(8px);
+    opacity: 1;
+  }
+}
+</style>
+
 <!-- ![color](#b1ffbb) -->
 <!-- ![](/_media/icon.png) -->
