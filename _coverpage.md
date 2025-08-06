@@ -13,7 +13,9 @@
 - Submit your own results to our [Leaderboard](#leaderboard)!
 
 <div class="scroll-arrow-wrapper">
+    <a href="#/?id=ablationbench">
   <div class="scroll-arrow"></div>
+  </a>
 </div>
 
 <style>
@@ -30,6 +32,7 @@
   height: 40px;
   position: relative;
   animation: arrow-bounce 1.5s infinite;
+  padding-bottom: 40px;
 }
 
 .scroll-arrow::before {
