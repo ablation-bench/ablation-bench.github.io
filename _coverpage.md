@@ -15,15 +15,9 @@
 
 
 <style>
-.scroll-arrow-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 60px;
-  pointer-events: none; /* avoids interfering with buttons */
-}
 
 .scroll-arrow {
+  padding-top: 60px;
   width: 40px;
   height: 40px;
   position: relative;
@@ -62,7 +56,7 @@
 [HuggingFace 🤗](https://huggingface.co/collections/ai-coscientist/ablationbench-682701a2c1eafb87b1b087ea)
 [GitHub 💻](https://github.com/ai-scientist-bench/ablation-bench)
 
-<div class="scroll-arrow-wrapper">
+<div>
   <div class="scroll-arrow"></div>
 </div>
 
