@@ -1,3 +1,9 @@
+<style>
+.no-links-underline a {
+  text-decoration: none !important;
+}
+</style>
+
 # AblationBench Trajectories
 
 ## AuthorAblation
@@ -6,6 +12,8 @@
 <!-- tabs:start -->
 
 #### **LM-Planner**
+
+<div class="no-links-underline">
 
 | Task | GPT-4o | Claude 3.5 Sonnet | Llama 3.1 405B Instruct | Gemini 2.5 Flash | o3-mini |
 |------|----|----|----|----|----|
@@ -138,6 +146,8 @@
 | sapg | [🔗](/trajectories/agent-planner/gpt-4o/sapg) | [🔗](/trajectories/agent-planner/claude-35-sonnet/sapg) | [🔗](/trajectories/agent-planner/llama-31-405b-instruct/sapg) |
 | componet | [🔗](/trajectories/agent-planner/gpt-4o/componet) | [🔗](/trajectories/agent-planner/claude-35-sonnet/componet) | [🔗](/trajectories/agent-planner/llama-31-405b-instruct/componet) |
 | foa | [🔗](/trajectories/agent-planner/gpt-4o/foa) | [🔗](/trajectories/agent-planner/claude-35-sonnet/foa) | [🔗](/trajectories/agent-planner/llama-31-405b-instruct/foa) |
+
+</div>
 
 <!-- tabs:end -->
 
