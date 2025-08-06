@@ -19,33 +19,42 @@
 [GitHub 💻](https://github.com/ai-scientist-bench/ablation-bench)
 
 
-<div class="down-arrow"></div>
+<div class="scroll-arrow-wrapper">
+  <div class="scroll-arrow"></div>
+</div>
 
 <style>
-.down-arrow {
-  width: 50px;
-  height: 40px;
-  margin: 30px auto;
-  position: relative;
-  animation: bounce-down 1.5s infinite;
-  opacity: 0.7;
+.scroll-arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  pointer-events: none; /* avoids interfering with buttons */
 }
 
-.down-arrow::before {
+.scroll-arrow {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  animation: arrow-bounce 1.5s infinite;
+}
+
+.scroll-arrow::before {
   content: '';
   position: absolute;
   top: 10px;
   left: 0;
   width: 100%;
   height: 100%;
-  border: solid #000;
+  border: solid black;
   border-width: 0 0 4px 4px;
-  transform: rotate(315deg); /* Makes it point down like a V */
-  box-sizing: content-box;  /* Prevents affecting layout */
+  transform: rotate(315deg);
+  box-sizing: content-box;
   display: block;
 }
 
-@keyframes bounce-down {
+/* Confined to only this arrow */
+@keyframes arrow-bounce {
   0%, 100% {
     transform: translateY(0);
     opacity: 0.7;
