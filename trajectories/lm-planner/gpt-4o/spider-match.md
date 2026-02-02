@@ -1,6 +1,15 @@
+<style>
+.trajectory-box strong {
+  color: #1a1a1a !important;
+}
+.trajectory-box h3 {
+  color: #1a1a1a !important;
+}
+</style>
+
 # lm-planner/gpt-4o/spider-match
 
-<div style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-left: 5px solid #2196f3; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); color: #1a1a1a;">
+<div style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-left: 5px solid #2196f3; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); color: #1a1a1a;" class="trajectory-box">
 <h2 style="color: #1976d2; margin-top: 0; margin-bottom: 15px; font-size: 1.3em;">🧠 Reasoning Trace</h2>
 
 The paper "SpiderMatch: 3D Shape Matching with Global Optimality and Geometric Consistency" introduces a novel approach to 3D shape matching using a SpiderCurve representation and an integer linear programming (ILP) formulation. The key components of the method include the SpiderCurve representation, the ILP formulation with specific constraints (CYC, CON, PES, ANS), and the use of a cost function based on vertex-wise 3D shape features. To understand the contribution of each component to the overall performance, we can design ablation studies focusing on these elements.
@@ -18,7 +27,7 @@ The paper "SpiderMatch: 3D Shape Matching with Global Optimality and Geometric C
 These ablation studies will help attribute the method's performance to its major components and understand the robustness and flexibility of the proposed approach.
 </div>
 
-<div style="background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%); border-left: 5px solid #9c27b0; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); color: #1a1a1a;">
+<div style="background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%); border-left: 5px solid #9c27b0; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); color: #1a1a1a;" class="trajectory-box">
 <h2 style="color: #7b1fa2; margin-top: 0; margin-bottom: 15px; font-size: 1.3em;">📋 Ablation Plan</h2>
 
 ### Ablation 1: SpiderCurve Representation
