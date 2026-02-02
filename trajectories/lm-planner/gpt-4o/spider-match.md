@@ -1,8 +1,7 @@
 # SpiderMatch: 3D Shape Matching - GPT-4o Trajectory
 
-## Reasoning Trace
-
-?> **Analysis Discussion**
+<div style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-left: 5px solid #2196f3; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<h2 style="color: #1976d2; margin-top: 0; margin-bottom: 15px; font-size: 1.3em;">🧠 Reasoning Trace</h2>
 
 The paper "SpiderMatch: 3D Shape Matching with Global Optimality and Geometric Consistency" introduces a novel approach to 3D shape matching using a SpiderCurve representation and an integer linear programming (ILP) formulation. The key components of the method include the SpiderCurve representation, the ILP formulation with specific constraints (CYC, CON, PES, ANS), and the use of a cost function based on vertex-wise 3D shape features. To understand the contribution of each component to the overall performance, we can design ablation studies focusing on these elements.
 
@@ -17,10 +16,10 @@ The paper "SpiderMatch: 3D Shape Matching with Global Optimality and Geometric C
 5. **Feature Extraction Method**: The method uses a pretrained feature extractor for computing vertex-wise features. Replacing this with different feature extraction methods could show the dependency of the method on the quality of the features.
 
 These ablation studies will help attribute the method's performance to its major components and understand the robustness and flexibility of the proposed approach.
+</div>
 
-## Ablation Plan
-
-!> **Proposed Ablation Studies**
+<div style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); border-left: 5px solid #ff9800; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<h2 style="color: #f57c00; margin-top: 0; margin-bottom: 15px; font-size: 1.3em;">📋 Ablation Plan</h2>
 
 ### Ablation 1: SpiderCurve Representation
 - **Ablated Part**: SpiderCurve representation of the source 3D shape
@@ -58,3 +57,4 @@ These ablation studies will help attribute the method's performance to its major
   - Handcrafted Features
   - Deep Learning-based Features
 - **Metrics**: geometric_consistency, global_optimality, runtime
+</div>
