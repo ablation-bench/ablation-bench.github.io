@@ -7,7 +7,7 @@
 }
 </style>
 
-# lm-planner/claude-35-sonnet/rah-kbqa
+# lm-planner/claude-3.5-sonnet/rah-kbqa
 
 <div style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-left: 5px solid #2196f3; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); color: #1a1a1a;" class="trajectory-box">
 <h2 style="color: #1976d2; margin-top: 0; margin-bottom: 15px; font-size: 1.3em;">🧠 Reasoning Trace</h2>
