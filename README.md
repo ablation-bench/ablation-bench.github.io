@@ -24,7 +24,7 @@
 # AblationBench
 
 
-> Can models help automate the design of ablation experiments in scientific papers? To explore this, we introduce <span class="ablationbench">AblationBench</span>, a benchmark for evaluating models on ablation planning in empirical AI research. It includes two tasks: <span class="authorablation">AuthorAblation</span>, where the model proposes ablations from a method section, and <span class="reviewerablation">ReviewerAblation</span>, where it suggests missing ablations in a full paper. Across 83 papers in <span class="authorablation">AuthorAblation</span> and 350 papers in <span class="reviewerablation">ReviewerAblation</span>, we evaluate models using automatic LM-based judges and find that even the **best systems identify only 29% of ground-truth ablations**, highlighting how *challenging* and *open* this task remains.
+> Can models help automate the design of ablation experiments in scientific papers? To explore this, we introduce <span class="ablationbench">AblationBench</span>, a benchmark for evaluating models on ablation planning in empirical AI research. It includes two tasks: <span class="authorablation">AuthorAblation</span>, where the model proposes ablations from a method section, and <span class="reviewerablation">ReviewerAblation</span>, where it suggests missing ablations in a full paper. Across 83 papers in <span class="authorablation">AuthorAblation</span> and 350 papers in <span class="reviewerablation">ReviewerAblation</span>, we evaluate models using automatic LM-based judges and find that even the **best systems identify only 38% of ground-truth ablations**, highlighting how *challenging* and *open* this task remains.
 
 <center><img src="_media/figure1.png" alt="fig1"/></center>
 
@@ -33,7 +33,7 @@ It also contains all the trajectories for the model used in our evaluation.
 
 For more information please refer to our [paper](https://www.arxiv.org/abs/2507.08038).
 
-We are also completely open-source! Our dataset can be found on [HuggingFace](https://huggingface.co/collections/ai-coscientist/ablationbench-682701a2c1eafb87b1b087ea) and our evaluation suite can be found on [GitHub](https://github.com/ai-scientist-bench/ablation-bench) ![GitHub Stars](https://img.shields.io/github/stars/ai-scientist-bench/ablation-bench).
+We are also completely open-source! Our dataset can be found on [HuggingFace](https://huggingface.co/collections/ai-coscientist/ablationbench-682701a2c1eafb87b1b087ea) and our evaluation suite can be found on [GitHub](https://github.com/ai-scientist-bench/ablation-bench) [![GitHub Stars](https://img.shields.io/github/stars/ai-scientist-bench/ablation-bench)](https://github.com/ai-scientist-bench/ablation-bench).
 
 ## Leaderboard
 
@@ -45,41 +45,41 @@ The leaderboard shows all model results, with detailed scores per dataset in the
 
 | Model                             | F1 Score |
 |----------------------------------|----------|
-| LM-Planner w/ Gemini 2.5 Flash   | **0.24**     |
-| LM-Planner w/ o3-mini            | 0.22     |
-| LM-Planner w/ GPT-4o             | 0.22     |
-| LM-Planner w/ Claude 3.5 Sonnet  | 0.21     |
-| LM-Planner w/ Llama 3.1 405B     | 0.19     |
-| Agent-Planner w/ Claude 3.5 Sonnet | 0.19   |
-| Agent-Planner w/ GPT-4o          | 0.18     |
-| Agent-Planner w/ Llama 3.1 405B  | 0.17     |
+| LM-Planner w/ GPT-4o             | **0.31**     |
+| LM-Planner w/ Gemini 2.5 Flash   | 0.30     |
+| LM-Planner w/ Claude 3.5 Sonnet  | 0.30     |
+| LM-Planner w/ o3-mini            | 0.29     |
+| Agent-Planner w/ Claude 3.5 Sonnet | 0.29   |
+| Agent-Planner w/ GPT-4o          | 0.29     |
+| LM-Planner w/ Llama 3.1 405B     | 0.27     |
+| Agent-Planner w/ Llama 3.1 405B  | 0.26     |
 
 #### **<span class="authorablation">AuthorAblation</span> Only**
 
 | Model                             | F1 Score |
 |----------------------------------|----------|
-| LM-Planner w/ Gemini 2.5 Flash   | **0.26**     |
-| LM-Planner w/ o3-mini            | **0.26**     |
-| LM-Planner w/ Claude 3.5 Sonnet  | 0.23     |
-| LM-Planner w/ GPT-4o             | 0.22     |
-| LM-Planner w/ Llama 3.1 405B     | 0.17     |
-| Agent-Planner w/ GPT-4o          | 0.17     |
-| Agent-Planner w/ Claude 3.5 Sonnet | 0.17   |
-| Agent-Planner w/ Llama 3.1 405B  | 0.14     |
+| LM-Planner w/ Claude 3.5 Sonnet  | **0.40**     |
+| LM-Planner w/ Gemini 2.5 Flash   | 0.36     |
+| LM-Planner w/ o3-mini            | 0.35     |
+| LM-Planner w/ GPT-4o             | 0.34     |
+| Agent-Planner w/ Claude 3.5 Sonnet | 0.32   |
+| Agent-Planner w/ GPT-4o          | 0.30     |
+| Agent-Planner w/ Llama 3.1 405B  | 0.28     |
+| LM-Planner w/ Llama 3.1 405B     | 0.26     |
 
 
 #### **<span class="reviewerablation">ReviewerAblation</span> Only**
 
 | Model                             | F1 Score |
 |----------------------------------|----------|
-| LM-Planner w/ Gemini 2.5 Flash   | **0.22**     |
-| LM-Planner w/ GPT-4o             | **0.22**     |
-| Agent-Planner w/ Claude 3.5 Sonnet | 0.21   |
-| LM-Planner w/ Llama 3.1 405B     | 0.20     |
-| Agent-Planner w/ GPT-4o          | 0.19     |
-| Agent-Planner w/ Llama 3.1 405B  | 0.19     |
-| LM-Planner w/ Claude 3.5 Sonnet  | 0.18     |
-| LM-Planner w/ o3-mini            | 0.18     |
+| LM-Planner w/ Llama 3.1 405B     | **0.27**     |
+| LM-Planner w/ GPT-4o             | **0.27**     |
+| Agent-Planner w/ GPT-4o          | **0.27**     |
+| Agent-Planner w/ Claude 3.5 Sonnet | 0.25   |
+| LM-Planner w/ Gemini 2.5 Flash   | 0.24     |
+| Agent-Planner w/ Llama 3.1 405B  | 0.24     |
+| LM-Planner w/ o3-mini            | 0.22     |
+| LM-Planner w/ Claude 3.5 Sonnet  | 0.19     |
 
 
 
@@ -165,9 +165,11 @@ To support automatic evaluation, we design an LM-based judge that compares the G
 
 To evaluate how well the judges perform, we also provide a dedicated dataset, *JudgeEval*, consisting of *AuthorEval* and *ReviewerEval*, with manually labeled examples for both tasks.
 
-Our best judge achieves 0.75 F1 score on the JudgeEval dataset using Claude 3.5 Sonnet: on the AuthorEval we achieve 0.79 F1 score and on the ReviewerEval we acheive 0.70 F1 score.
+Our best judge achieves 0.78 F1 score on the JudgeEval dataset using o3-mini: on the AuthorEval we achieve 0.81 F1 score and on the ReviewerEval we acheive 0.74 F1 score.
 
-The image below shows three examples of how our matching criteria works:
+We use the majority vote judge on three models for final evaluation, to address any potential bias of a model rates its own generations.
+
+The image below shows four examples of how our matching criteria works:
 
 ![match-labels](_media/match-labels.png)
 
