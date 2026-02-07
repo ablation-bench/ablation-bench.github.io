@@ -9,7 +9,7 @@
 [Talor Abramovich](https://talorabr.github.io)&nbsp;&nbsp;&nbsp;&nbsp;[Gal Chechik](https://chechiklab.biu.ac.il/~gal/)
 
 - A benchmark suite for automated ablation planning
-- Current LM system identifies only **29%** of the original ablations on average
+- Current LM system identifies only **=38%** of the original ablations on average
 - Submit your own results to our [Leaderboard](#leaderboard)!
 
 [🔽 Learn More 🔽](#ablationbench)
