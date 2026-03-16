@@ -86,6 +86,17 @@ The leaderboard shows all model results, with detailed scores per dataset in the
 <!-- tabs:end -->
 
 
+## Demo
+
+<script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/6.5.1/gradio.js"
+></script>
+
+<gradio-app src="https://ai-coscientist-ablation-bench.hf.space"></gradio-app>
+
+
+
 ## Task Instances
 
 We look into two tasks in automating ablations: 
